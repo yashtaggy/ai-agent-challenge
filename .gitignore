@@ -1,0 +1,46 @@
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore distribution and packaging files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore pipenv, poetry, or conda environment files
+Pipfile.lock
+poetry.lock
+*.conda
+*.yml
+*.yaml
+
+# Optional: ignore Python virtual environment binaries
+bin/
+lib/
+include/
+share/
